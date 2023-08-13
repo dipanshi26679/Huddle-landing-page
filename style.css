@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #8000ff;
+    background-image: url(./images/bg-desktop.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.logo {
+width: 210px;
+margin-top: 40px;
+}
+.image {
+    width: 100%;
+    margin-top: 70px;
+
+}
+.content {
+    color: white;
+    margin: auto 0px;
+    
+}
+button {
+    padding: 7px 40px;
+    border-radius: 20px;
+    border: none;
+color: #8000ff;
+}
+@media screen and (min-width: 400px) {
+    .content{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 900px) {
+    .content{
+        text-align: left;
+    }
+}
+    
+    
